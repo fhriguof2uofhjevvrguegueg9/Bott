@@ -2,6 +2,8 @@ import random
 import asyncio
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
+import os
+TOKEN = os.getenv("TOKEN")
 
 TOKEN = "8784144124:AAFL7K5WMeRe-K8UvEs2kUydV04IFbMkkew"
 
