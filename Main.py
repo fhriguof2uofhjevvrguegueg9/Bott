@@ -4,9 +4,6 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
 import os
 TOKEN = os.getenv("TOKEN")
-
-TOKEN = "8784144124:AAFL7K5WMeRe-K8UvEs2kUydV04IFbMkkew"
-
 word_bank = {}
 
 async def collect_words(update: Update, context: ContextTypes.DEFAULT_TYPE):
